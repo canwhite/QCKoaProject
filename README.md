@@ -15,7 +15,7 @@ Koa requires node v7.6.0+. If your version is older than that, upgrade Node firs
 
 
 ```bash
-$ git clone 
+$ git clone https://github.com/canwhite/QCKoaProject
 ```
 
 Install the dependencies.
@@ -25,8 +25,8 @@ $ cd QCKoaProject
 $ npm install || cnpm i
 ```
 
-##各模块介绍
-###入口：app.js
+##  各模块介绍
+###  入口：app.js
 ```
 const Koa = require('koa');
 const app = new Koa();
