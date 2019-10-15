@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "a collection of simple demos of Koa",
   "scripts": {
+    "dev": "cross-env NODE_ENV=dev ./node_modules/.bin/nodemon app.js",
+    "prd": "cross-env NODE_ENV=production ./node_modules/.bin/nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": ["Koa", "Node"],
@@ -22,5 +24,9 @@
     "koa-generic-session":"2.0.1",
     "mysql": "^2.16.0",
     "koa-morgan": "^1.0.1"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "nodemon": "^1.8.1"
   }
 }
