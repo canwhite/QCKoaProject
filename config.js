@@ -16,7 +16,7 @@ module.exports = {
     MYSQL_CONF:{
         host: 'localhost',
         user: 'root',
-        password: 'lyf-920521',
+        password: '******',
         database: 'myblog'
     },
     // redis
