@@ -25,7 +25,7 @@ app.use(serve(__dirname+'/public'));
 //5.session-redis，注意要安装redis
 session_redis(app);
 
-//6.线上日志
+//6.本地日志
 morgan(app);
 
 
