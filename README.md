@@ -1,4 +1,4 @@
-A collection of simple demos of [Koa](http://koajs.com/), a web application framework for Node.
+An easy-to-use project of [Koa](http://koajs.com/), a web application framework for Node.
 
 ![Logo](logo.png)
 
