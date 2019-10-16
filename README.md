@@ -22,7 +22,16 @@ Install the dependencies.
 
 ```bash
 $ cd QCKoaProject
-$ npm install || cnpm i
+$ npm install  
+or  
+$ cnpm i
+```
+
+run
+```
+$ npm run dev
+or
+$ node app.js
 ```
 
 ##  各模块介绍
