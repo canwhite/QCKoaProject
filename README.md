@@ -67,3 +67,4 @@ route(app);
 app.listen(config.port);
 
 ```
+###  ⚠️使用session-redis的前提：pc上要先安装redis
