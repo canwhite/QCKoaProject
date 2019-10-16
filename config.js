@@ -3,7 +3,6 @@ module.exports = {
     port:3500,
     //session的内容估计要变化
     session:{
-        key:'',
         path: '/',//cookie key (默认就是koa:sess)
         maxAge:24 * 60 * 60 * 1000,//cookie的过期时间,毫秒，默认为一天
         httpOnly:false,//cookie是否只有服务端可以访问，默认为true
