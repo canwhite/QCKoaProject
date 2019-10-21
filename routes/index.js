@@ -11,6 +11,5 @@ module.exports = function(app){
     //用户目录路由
     wxuser(app,router);
 
-    
 
 };
