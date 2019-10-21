@@ -155,7 +155,7 @@ Post.updateone = function(oldpost,newpost,callback){
 }
 
 /*
-*   调用这里边的方法,最后的现象是
+*   //在其他模块引入后的使用方法：
 *   let test = async (ctx) =>{
 *       ...
 *           var data = await User.get(username)
