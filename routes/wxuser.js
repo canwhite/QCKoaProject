@@ -1,12 +1,11 @@
-const route = require('koa-route');
-module.exports = function(app){
+module.exports = function(app,router){
 
       
     const main = ctx => {
         ctx.response.body = '这里是用户界面';
     };
-
-    app.use(route.get("/user",main));
+    router.get('/user',main);
+    app.use(router.routes());
 
     
 };

@@ -1,5 +1,5 @@
-const route = require('koa-route');
-module.exports = function(app){
+
+module.exports = function(app,router){
 
     const about = ctx => {
         ctx.response.type = 'json';
@@ -10,8 +10,10 @@ module.exports = function(app){
         ctx.response.type = 'json';
         ctx.response.body = {data:{message:'hello world'}};
     };
+    
+    router.get("/",main);
+    router.post("/about",about);
 
-    app.use(route.get("/",main));
-    app.use(route.get("/about",about));
+    app.use(router.routes());
 
 };
